@@ -9,7 +9,7 @@
 
 
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-
+  <script src="js/vendor/edit_profile.js"></script>			
   <!-- <link rel="stylesheet" href="css/style.css"> -->
   <style>
     #leftPanel{
