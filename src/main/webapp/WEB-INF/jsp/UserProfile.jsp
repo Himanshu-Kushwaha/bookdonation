@@ -19,7 +19,7 @@
 	margin-right: 5px;
 }
 .row-2{
-	width: 72s%;
+	width: 72%;
 	float: right;
 	background-color: solid black;
 	background-color: powderblue;
