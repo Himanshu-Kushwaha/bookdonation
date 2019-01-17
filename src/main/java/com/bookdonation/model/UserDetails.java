@@ -171,6 +171,20 @@ public class UserDetails {
 		this.noOfBooksDonated = noOfBooksDonated;
 	}
 
+	public UserDetails(String firstName2, String lastName2, String email, int mobile, String address2, int pincode2,
+			String pass, String userType2) {
+		super();
+		this.firstName = firstName2;
+		this.lastName = lastName2;
+		this.mobileNumber = mobile;
+		this.emailAddress = email;
+		this.password = pass;
+		this.address = address2;
+		this.pinCode = pincode2;
+		this.userType = userType2;
+		
+	}
+
 	@Override
 	public String toString() {
 		return "UserDetails [firstName=" + firstName + ", lastName=" + lastName + ", mobileNumber=" + mobileNumber

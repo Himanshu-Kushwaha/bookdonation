@@ -31,6 +31,10 @@ public class BookDetails {
 	
 	@Column(name="binding_type")
 	private String bindingType;
+	
+	public BookDetails() {
+		
+	}
 
 	public String getIsbnNumber() {
 		return isbnNumber;
