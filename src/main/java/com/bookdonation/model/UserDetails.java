@@ -2,9 +2,14 @@ package com.bookdonation.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
+
+import org.hibernate.validator.constraints.UniqueElements;
 
 @Entity
 @Table(name="user_details")
@@ -13,6 +18,37 @@ public class UserDetails {
 	@NotNull
 	private String firstName;
 	
+	@Id
+	@SequenceGenerator(name="seq",sequenceName="oracle_seq")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seq")
+	@Column(name="user_id")
+	private Integer userId;
+	
+	public Integer getUserId() {
+		return userId;
+	}
+
+	public UserDetails(@NotNull String firstName, Integer userId, String lastName, @NotNull Integer mobileNumber,
+			@UniqueElements String emailAddress, @NotNull String password, String address, @NotNull Integer pinCode,
+			Integer noOfBooksDonated, String gender, @NotNull String userType) {
+		super();
+		this.firstName = firstName;
+		this.userId = userId;
+		this.lastName = lastName;
+		this.mobileNumber = mobileNumber;
+		this.emailAddress = emailAddress;
+		this.password = password;
+		this.address = address;
+		this.pinCode = pinCode;
+		this.noOfBooksDonated = noOfBooksDonated;
+		this.gender = gender;
+		this.userType = userType;
+	}
+
+	public void setUserId(Integer userId) {
+		this.userId = userId;
+	}
+
 	@Column(name="last_name")
 	private String lastName;
 	
@@ -20,8 +56,9 @@ public class UserDetails {
 	@NotNull
 	private Integer mobileNumber;
 	
-	@Id
-	@Column(name="email_address")
+
+	@Column(unique = true, name="email_address")
+//	@Column(name="email_address")
 	private String emailAddress;
 	
 	@Column(name="pswd")

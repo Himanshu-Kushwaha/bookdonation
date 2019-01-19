@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Login</title>
+<title>Register</title>
 </head>
 <body>
 <!--===============================================================================================-->	
@@ -41,41 +41,41 @@
 					</span>
 				</div>
 
-				<form class="login100-form validate-form" action="login" method="post">
+				<form class="login100-form validate-form" method="post">
 					<div class="wrap-input100 validate-input m-b-26" data-validate="firstname is required">
 						<span class="label-input100">first name</span>
-						<input class="input100" type="text" name="firstName" placeholder="Enter firstname">
+						<input class="input100" type="text" name="firstName" placeholder="Enter firstname" required>
 						
 					</div>
 					<div class="wrap-input100 validate-input m-b-26" data-validate="lastname is required">
 					<span class="label-input100">last name</span>
-						<input class="input100" type="text" name="lastName" placeholder="Enter lastname">
+						<input class="input100" type="text" name="lastName" placeholder="Enter lastname" required>
 						<span class="focus-input100"></span></div>
 
 					<div class="wrap-input100 validate-input m-b-18" data-validate = " required field">
 						<span class="label-input100">email</span>
-						<input class="input100" type="text" name="email" placeholder="Enter email">
+						<input class="input100" type="text" name="email" placeholder="Enter email" required>
 						<span class="focus-input100"></span>
 					</div>
 					<div class="wrap-input100 validate-input m-b-18" data-validate = " required field">
 						<span class="label-input100">Mobile</span>
-						<input class="input100" type="text" name="mobile" placeholder="Enter contact number">
+						<input class="input100" type="text" name="mobile" placeholder="Enter contact number" required>
 						<span class="focus-input100"></span>
 					</div>
 					<div class="wrap-input100 validate-input m-b-18" data-validate = "address required">
 						<span class="label-input100">address</span>
-						<input class="input100" type="text area" name="address" placeholder="Enter address">
+						<input class="input100" type="text area" name="address" placeholder="Enter address" required>
 						<span class="focus-input100"></span>
 					</div>
 					<div class="wrap-input100 validate-input m-b-18" data-validate = "Pincode is required">
 						<span class="label-input100">Pincode</span>
-						<input class="input100" type="text" name="pincode" placeholder="Enter pincode">
+						<input class="input100" type="text" name="pincode" placeholder="Enter pincode" required>
 						<span class="focus-input100"></span>
 					</div>
 					
 					<div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
 						<span class="label-input100">Password</span>
-						<input class="input100" type="password" name="pass" placeholder="Enter password">
+						<input class="input100" type="password" name="pass" placeholder="Enter password" required>
 						<span class="focus-input100"></span>
 					</div>
 					

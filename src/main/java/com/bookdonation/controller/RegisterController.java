@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.bookdonation.model.UserDetails;
 import com.bookdonation.repository.UserDetailsRepository;
@@ -25,12 +26,15 @@ public class RegisterController {
 	  @PostMapping
 	  @RequestMapping(value="/Register", method = RequestMethod.POST) 
 	 
-	  public String showLoginPage(ModelMap model, @RequestParam String firstName, @RequestParam String lastName,@RequestParam String email,@RequestParam int mobile,@RequestParam String address,@RequestParam int pincode,@RequestParam String pass,@RequestParam String UserType ){
+	  public ModelAndView showLoginPage(ModelMap model, @RequestParam String firstName, @RequestParam String lastName,@RequestParam String email,@RequestParam int mobile,@RequestParam String address,@RequestParam int pincode,@RequestParam String pass,@RequestParam String UserType ){
 		UserDetails userDetails = new UserDetails(firstName,lastName,email,mobile,address,pincode,pass,UserType);
 	  System.out.println(firstName +" "+ lastName);
 	  System.out.println(userDetails.toString());
 	 
 			userDetailsRepository.save(userDetails);
-		return "login";
+			model.addAttribute("attribute", "Register");
+	        return new ModelAndView("redirect:/login", model);
+			
+//		return "login";
 	  }	 
 }

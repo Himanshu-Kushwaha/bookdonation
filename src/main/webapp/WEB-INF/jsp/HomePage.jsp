@@ -54,9 +54,9 @@
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li class="menu-active"><a href="#home">Home</a></li>
-				          <li><a href="#about">donate</a></li>
+				          <li><a href="login">donate</a></li>
 				          <li><a href="#fact">About</a></li>
-				          <li><a href="#price">contact us</a></li>
+				          <li><a href="#about">contact us</a></li>
 				          <li><a href="Register">signup</a></li>
 				          <li class="menu-has-children"><a href="login">login</a>
 				            <!-- <ul>
@@ -81,9 +81,9 @@
 								Book Donation				
 							</h1>
 							<p class="text-white pt-20 pb-20">
-								Picking five favorite books is like picking the five boby parts <br> you'd most like not to lose.
+								Picking five favorite books is like picking the five body parts <br> you'd most like not to lose.
 							</p>
-							<a href="#" class="primary-btn text-uppercase">Donate Now</a>
+							<a href="login" class="primary-btn text-uppercase">Donate Now</a>
 						</div>
 						<div class="col-lg-5 banner-right">
 							<img class="img-fluid" src="img/header-img.png" alt="">
@@ -140,13 +140,14 @@
 			<!-- Start counter Area -->
 			<section class="counter-area">
 				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-6">
+				
+					<div class="row" >
+						<!-- <div class="col-lg-3 col-md-6">
 							<div class="single-counter">
 								<h1 class="counter">769</h1>
 								<p>Happy Clients</p>								
 							</div>
-						</div>
+						</div> -->
 						<div class="col-lg-3 col-md-6">
 							<div class="single-counter">
 								<h1 class="counter">1382</h1>
@@ -166,6 +167,7 @@
 							</div>
 						</div>												
 					</div>
+					
 				</div>	
 			</section>
 			<!-- end counter Area -->
@@ -246,32 +248,32 @@
 					<div class="row">
 						<div class="active-course-carusel">
 							<div class="single-course item">
-								<img class="img-fluid" src="img/c1.jpg" alt="">
+								<img class="img-fluid" src="img/ngo.jpg" alt="">
 								<p class="sale-btn">NGOs</p>
 								<div class="details">
-									<a href="#"><h4>Breakthrough Thinking <span class="price float-right">$25</span></h4></a>	
+									<a href="#"><h4>Donating book to NGO <span class="price float-right"></span></h4></a>	
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+										Any book that helps a child to form a habit of reading, to make reading one of his deep and continuing needs is good for him.
 									</p>
 								</div>
 							</div>
 							<div class="single-course item">
-								<img class="img-fluid" src="img/c2.jpg" alt="">
+								<img class="img-fluid" src="img/library.jpg" alt="">
 								<p class="sale-btn">Libraries</p>
-								<div class="details">
-									<a href="#"><h4>Breakthrough Thinking <span class="price float-right">$25</span></h4></a>	
+								<div class="details"></br>
+									<a href="#"><h4>Books to library <span class="price float-right"></span></h4></a>	
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+										When you give someone a book, you are not giving  him just paper, ink, and glue, you give him the possibility of a whole new world
 									</p>
 								</div>
 							</div>
 							<div class="single-course item">
-								<img class="img-fluid" src="img/c3.jpg" alt="">
+								<img class="img-fluid" src="img/stationary.jpg" alt="">
 								<p class="sale-btn">Stationaries</p>
 								<div class="details">
-									<a href="#"><h4>Breakthrough Thinking <span class="price float-right">$25</span></h4></a>	
+									<a href="#"><h4>Books to stationary <span class="price float-right"></span></h4></a>	
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+										Books make great gifts because they have whole worlds inside of them and it is much cheaper to buy somebody a book than it is to buy them the whole world!
 									</p>
 								</div>
 							</div>								
@@ -328,7 +330,7 @@
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-60 col-lg-8">
 							<div class="title text-center">
-								<h1 class="mb-10">What our Reader’s Say about us</h1>
+								<h1 class="mb-10">What our Readers Say about us</h1>
 								<p>Who are in extremely love with eco friendly system.</p>
 							</div>
 						</div>
@@ -338,93 +340,96 @@
 							<div class="single-testimonial item">
 								<img class="mx-auto" src="img/t1.png" alt="">
 								<p class="desc">
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+									I got so many books here, it is very useful as i dont need to buy my course books.
+									I also donated some books and its awesome feeling.
 								</p>
-								<h4>Mark Alviro Wiens</h4>
+								<h4>Parul Mehta</h4>
 								<p>
-									CEO at Google
+									Electrical Engineer at BHEL.
 								</p>
 							</div>
 							<div class="single-testimonial item">
 								<img class="mx-auto" src="img/t2.png" alt="">
 								<p class="desc">
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+									Donating Books make me happy as I get the feeling of being useful for someone by giving my books, it's good to donate book not to throw it in trash. 
 								</p>
-								<h4>Mark Alviro Wiens</h4>
+								<h4>Richa Chadda</h4>
 								<p>
-									CEO at Google
+									Student
 								</p>
 							</div>
 							<div class="single-testimonial item">
 								<img class="mx-auto" src="img/t3.png" alt="">
 								<p class="desc">
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+									I love to read novel and different books but I am not able to buy it all, and taking it from library require library subscriptions as I am a 10th standard student and I don't have that amount of money so I came here to get Books.
 								</p>
-								<h4>Mark Alviro Wiens</h4>
+								<h4>Rahul Yadav</h4>
 								<p>
-									CEO at Google
+									Student.
 								</p>
 							</div>	
 							<div class="single-testimonial item">
 								<img class="mx-auto" src="img/t1.png" alt="">
 								<p class="desc">
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+									I got so many books here, it is very useful as i dont need to buy my course books.
+									I also donated some books and its awesome feeling.
 								</p>
-								<h4>Mark Alviro Wiens</h4>
+								<h4>Parul Mehta</h4>
 								<p>
-									CEO at Google
+									Electrical Engineer at BHEL.
 								</p>
 							</div>
 							<div class="single-testimonial item">
 								<img class="mx-auto" src="img/t2.png" alt="">
 								<p class="desc">
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+									Donating Books make me happy as I get the feeling of being useful for someone by giving my books, it's good to donate book not to throw it in trash. 
 								</p>
-								<h4>Mark Alviro Wiens</h4>
+								<h4>Richa Chadda</h4>
 								<p>
-									CEO at Google
+									Student
 								</p>
 							</div>
 							<div class="single-testimonial item">
 								<img class="mx-auto" src="img/t3.png" alt="">
 								<p class="desc">
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+									I love to read novel and different books but I am not able to buy it all, and taking it from library require library subscriptions as I am a 10th standard student and I don't have that amount of money so I came here to get Books.
 								</p>
-								<h4>Mark Alviro Wiens</h4>
+								<h4>Rahul Yadav</h4>
 								<p>
-									CEO at Google
+									Student.
 								</p>
-							</div>															
+							</div>													
 							<div class="single-testimonial item">
 								<img class="mx-auto" src="img/t1.png" alt="">
 								<p class="desc">
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+									I got so many books here, it is very useful as i dont need to buy my course books.
+									I also donated some books and its awesome feeling.
 								</p>
-								<h4>Mark Alviro Wiens</h4>
+								<h4>Parul Mehta</h4>
 								<p>
-									CEO at Google
+									Electrical Engineer at BHEL.
 								</p>
 							</div>
 							<div class="single-testimonial item">
 								<img class="mx-auto" src="img/t2.png" alt="">
 								<p class="desc">
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+									Donating Books make me happy as I get the feeling of being useful for someone by giving my books, it's good to donate book not to throw it in trash. 
 								</p>
-								<h4>Mark Alviro Wiens</h4>
+								<h4>Richa Chadda</h4>
 								<p>
-									CEO at Google
+									Student
 								</p>
 							</div>
 							<div class="single-testimonial item">
 								<img class="mx-auto" src="img/t3.png" alt="">
 								<p class="desc">
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+									I love to read novel and different books but I am not able to buy it all, and taking it from library require library subscriptions as I am a 10th standard student and I don't have that amount of money so I came here to get Books.
 								</p>
-								<h4>Mark Alviro Wiens</h4>
+								<h4>Rahul Yadav</h4>
 								<p>
-									CEO at Google
+									Student.
 								</p>
-							</div>														
+							</div>			
 						</div>
 					</div>
 				</div>	
@@ -437,14 +442,14 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-5 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
+							<div class="single-footer-widget" id="about">
 								<h6>About Us</h6>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.
+									Our aim is to create an innovative, simple and sustanable system for book sharing and donation.
 								</p>
 								<p class="footer-text">
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.facebook.com/02deepak11" target="_blank">Jeena James</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 								</p>								
 							</div>

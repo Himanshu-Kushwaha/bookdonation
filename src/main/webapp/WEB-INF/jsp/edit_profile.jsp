@@ -5,10 +5,14 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Bootstrap Edit Profile Form</title>
+  <title>Edit Profile</title>
 
-
+	
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="js/vendor/edit_profile.js"></script>			
   <!-- <link rel="stylesheet" href="css/style.css"> -->
   <style>
@@ -58,9 +62,9 @@
                   <span class="caret"></span><span class="sr-only">Social</span>
                 </button>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Twitter</a></li>
-                  <li><a href="https://plus.google.com/+Jquery2dotnet/posts">Google +</a></li>
-                  <li><a href="https://www.facebook.com/jquery2dotnet">Facebook</a></li>
+                  <li><a href="https://twitter.com/dee_code_">Twitter</a></li>
+               <!--    <li><a href="https://plus.google.com/+Jquery2dotnet/posts">Google +</a></li> -->
+                  <li><a href="https://www.facebook.com/02deepak11">Facebook</a></li>
                   <li class="divider"></li>
                   <li><a href="#">Github</a></li>
                 </ul>
@@ -150,7 +154,7 @@
                 <h4 class="modal-title" id="myModalLabel">Terms & Conditions</h4>
               </div>
               <div class="modal-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum
                   at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro
                   delectus quidem dolorem ad.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum
@@ -170,7 +174,7 @@
                   delectus quidem dolorem ad.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum
                   at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro
-                  delectus quidem dolorem ad.</p>
+                  delectus quidem dolorem ad.</p> -->
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-dismiss="modal">I Agree</button>

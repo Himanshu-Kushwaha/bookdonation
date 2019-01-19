@@ -1,6 +1,7 @@
 package com.bookdonation.service;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -8,7 +9,6 @@ import org.springframework.stereotype.Service;
 import com.bookdonation.model.UserDetails;
 import com.bookdonation.repository.UserDetailsRepository;
 
-import antlr.collections.List;
 
 @Service
 public class LoginService {
@@ -17,15 +17,12 @@ public class LoginService {
 	private UserDetailsRepository userDetailsRepository;
 
 	public boolean validateUser(String name, String password) {
-		// TODO Auto-generated method stub
-		ArrayList<UserDetails> _list =  (ArrayList<UserDetails>) userDetailsRepository.findAll();
-		
-		
-		System.out.println(_list);
-		
-		return name.equalsIgnoreCase("in28minutes")
-                && password.equalsIgnoreCase("dummy");
-		
+		UserDetails userDetails= userDetailsRepository.findByemailAddress(name);
+		if(userDetails.getPassword().equals(password)) {
+			return true;
+		}
+		else
+			return false;
 	}
 
 }

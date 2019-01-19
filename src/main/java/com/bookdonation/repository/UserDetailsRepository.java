@@ -10,4 +10,5 @@ import com.bookdonation.model.UserDetails;
 public interface UserDetailsRepository extends BookDonationRepository<UserDetails, Serializable>{
 
 	UserDetails findByemailAddress(String emailAddress);
+	UserDetails findByuserId(Integer userId);
 }

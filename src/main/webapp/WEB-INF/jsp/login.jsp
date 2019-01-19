@@ -44,13 +44,13 @@
 				<form class="login100-form validate-form" method="post">
 					<div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
 						<span class="label-input100">Username</span>
-						<input class="input100" type="text" name="name" placeholder="Enter username">
+						<input class="input100" type="text" name="emailAddress" placeholder="Enter username" required>
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
 						<span class="label-input100">Password</span>
-						<input class="input100" type="password" name="password" placeholder="Enter password">
+						<input class="input100" type="password" name="password" placeholder="Enter password" required>
 						<span class="focus-input100"></span>
 					</div>
 
@@ -75,6 +75,7 @@
 						</button>
 					</div>
 				</form>
+				 <font color="red">${errorMessage}</font>
 			</div>
 		</div>
 	</div>

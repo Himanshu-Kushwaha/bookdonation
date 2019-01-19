@@ -164,7 +164,7 @@ button:hover, a:hover {
 
   
     <table>
-    <tr class="table"><td style="padding:10px"><a href="#" id="tblrow">My Account</a></td></tr>
+    <tr class="table"><td style="padding:10px"><a href="edit_profile" id="tblrow">My Account</a></td></tr>
     <tr class="table"><td style="padding:10px"><a href="#" id="tblrow">Donated Books</a></td></tr>
     <tr class="table"><td style="padding:10px"><a href="#" id="tblrow">Recieved books</a></td></tr>
     <tr class="table"><td style="padding:10px"><a href="#" id="tblrow">Addresses</a></td></tr>
